@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Thêm Sinh Viên</h2>
+
+
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="name">Họ tên:</label></td>
+                <td><input type="text" id="name" name="name" required><br></td>
+            </tr>
+            <tr>
+                <td> <label for="birthday">Ngày sinh:</label></td>
+                <td><input type="date" id="birthday" name="birthday">
+                    <br></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <form action="">
+                        <input type="radio" name="gender" value="male" checked> Male
+                        <input type="radio" name="gender" value="female"> Female
+                        
+                      </form>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Quê quán:</label></td>
+                <td>
+                    <select id="country" name="country">
+                        <option value="hanoi">HaNoi</option>
+                        <option value="danang">DaNang</option>
+                        <option value="quangninh">QuangNinh</option>
+                    </select><br>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Address">Địa chỉ:</label>
+                </td>
+                <td>
+                    <input type="text" id="address" name="Address" required><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="hobbies">Sở thích:</label></td>
+                <td>
+                    
+                    <input type="checkbox" id="hobbies1" name="hobbies1" value="sport">
+                    <label for="vehicle1"> Thể thao</label>
+                    <input type="checkbox" id="hobbies2" name="hobbies2" value="travel">
+                    <label for="vehicle2"> Du lịch</label>
+                    <input type="checkbox" id="hobbies3" name="hobbies3" value="cinema">
+                    <label for="vehicle3"> Phim ảnh</label>
+                    <input type="checkbox" id="hobbies4" name="hobbies4" value="food">
+                    <label for="vehicle3"> Ẩm thực</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="color">Màu yêu thích:</label></td>
+                <td><input type="color" value="#000000" list="colors" />
+                <datalist id="colors">
+                    <option>#ff0000</option>
+                    <option>#0000ff</option>
+                    <option>#00ff00</option>
+                    <option>#ffff00</option>
+                    <option>#00ffff</option>
+                </datalist><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="text" id="email" name="email" required><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="FB">Trang Facebook:</label></td>
+                <td><input type="text" id="FB" name="FB" required><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="class">Lớp:</label></td>
+                <td><select id="class" name="class">
+                    <option value="class1">Lớp CNTT khoá 8</option>
+                    <option value="class2">Lớp CNTT khoá 7</option>
+                    <option value="class3">Lớp CNTT khoá 9</option>
+                </select><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="ID">Tên đăng nhập:</label></td>
+                <td><input type="text" id="ID" name="ID" required><br></td>
+            </tr>
+            
+            <tr>
+                <td><label for="Passw">Mật khẩu:</label></td>
+                <td><input type="text" id="passw" name="passw" required><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="Image">Ảnh thẻ:</label></td>
+                <td><input type="file" id="myfile" name="myfile"><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="message">Mô Tả:</label><br></td>
+                <td> <textarea id="message" name="message" rows="4" cols="50" required></textarea><br></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Gửi</button></td>
+                <td>
+                    <button type="submit">Nhập lại</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
